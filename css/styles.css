@@ -82,6 +82,8 @@ body {
 .hero-btn {
 	color: #ffffff;
 	background-color: #2196f3;
+	font-family: inherit;
+	font-style: normal;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.88;
@@ -192,6 +194,8 @@ body {
 .nav-portfolio-btn {
 	color: var(--title-color);
 	background-color: #f5f4fa;
+	font-family: inherit;
+	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.63;
