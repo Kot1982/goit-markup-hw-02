@@ -3,11 +3,15 @@
 	--title-color: #212121;
 	--text-color: #757575;
 	--accent-color: #2196f3;
+	--dark-background-color: #2f303a;
+	--grey-background-color: #f5f4fa;
+	--btn-background-color: #188ce8;
+	--light-color-for-another: #ffffff;
 }
 
 body {
 	font-family: "Roboto", "sans-serif";
-	background-color: #ffffff;
+	background-color: var(--light-color-for-another);
 }
 
 .list {
@@ -20,7 +24,7 @@ body {
 
 /* Стилизация шапки сайта */
 .web {
-	color: #2196f3;
+	color: var(--accent-color);
 }
 .header-logo {
 	color: black;
@@ -67,11 +71,11 @@ body {
 }
 /* Стилизация героя */
 .hero {
-	background-color: #2f303a;
+	background-color: var(--dark-background-color);
 	text-align: center;
 }
 .hero-title {
-	color: #ffffff;
+	color: var(--light-color-for-another);
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
@@ -80,8 +84,8 @@ body {
 	text-transform: uppercase;
 }
 .hero-btn {
-	color: #ffffff;
-	background-color: #2196f3;
+	color: var(--light-color-for-another);
+	background-color: var(--accent-color);
 	font-family: inherit;
 	font-style: normal;
 	font-weight: 700;
@@ -94,7 +98,7 @@ body {
 }
 .hero-btn:hover,
 .hero-btn:focus {
-	background-color: #188ce8;
+	background-color: var(--btn-background-color);
 }
 
 /* Стилизация преимуществ */
@@ -126,7 +130,7 @@ body {
 
 /* Стилизация команды */
 .team {
-	background-color: #f5f4fa;
+	background-color: var(--grey-background-color);
 }
 .team-title {
 	color: var(--title-color);
@@ -155,13 +159,13 @@ body {
 
 /* Стилизация подвала */
 .footer {
-	background-color: #2f303a;
+	background-color: var(--dark-background-color);
 }
 .footer-logo {
-	color: #ffffff;
+	color: var(--light-color-for-another);
 }
 .footer-map {
-	color: #ffffff;
+	color: var(--light-color-for-another);
 	font-family: inherit;
 	font-style: normal;
 	font-weight: 400;
@@ -193,7 +197,7 @@ body {
 /* Стилизация кнопок */
 .nav-portfolio-btn {
 	color: var(--title-color);
-	background-color: #f5f4fa;
+	background-color: var(--grey-background-color);
 	font-family: inherit;
 	font-style: normal;
 	font-weight: 500;
@@ -205,19 +209,19 @@ body {
 }
 .nav-portfolio-btn:hover,
 .nav-portfolio-btn:focus {
-	color: #ffffff;
-	background-color: #188ce8;
+	color: var(--light-color-for-another);
+	background-color: var(--btn-background-color);
 }
 
 /* Стилизация работ портфолио */
-.examples-item-title {
+.nav-examples-item-title {
 	color: var(--title-color);
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
 }
-.examples-item-text {
+.nav-examples-item-text {
 	color: var(--text-color);
 	font-weight: normal;
 	font-size: 16px;
